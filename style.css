@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: rgb (0,0,0, 0.01);
+    border-width: 0.5px;
+    background-color: steelblue;
+    color: azure;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0px 0px;
+}
+
+p {
+    text-align: center;
+}
