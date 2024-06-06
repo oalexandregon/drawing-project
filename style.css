@@ -31,3 +31,9 @@ h1 {
 p {
     text-align: center;
 }
+
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+}
