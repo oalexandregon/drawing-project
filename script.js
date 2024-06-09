@@ -5,7 +5,7 @@ const newP = document.createElement('p');
 
 
 
-function sortition() {
+function drawing() {
     let drawedIndex = Math.floor(Math.random() * participants.length);
     return { name: participants[drawedIndex], index: drawedIndex };
 }
@@ -15,7 +15,7 @@ console.log(participants);
 getButton.addEventListener('click', () => {
 
     const getDisplay = document.querySelector('.display');
-    const { name, index } = sortition();
+    const { name, index } = drawing();
 
     result.textContent = name;
     result.className = 'result';
